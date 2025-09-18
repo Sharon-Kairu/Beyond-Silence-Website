@@ -9,7 +9,7 @@ const ResponsiveNav = () => {
     const openNavHandler=()=>setShowMobile(true);
     const closeNavHandler=()=>setShowMobile(false);
   return (
-    <div >
+    <div className='fixed top-0 left-0 w-full z-50'>
         <Nav openNav={openNavHandler}/>
         <MobileNav showNav={showMobile} closeNav={closeNavHandler}/>
 
