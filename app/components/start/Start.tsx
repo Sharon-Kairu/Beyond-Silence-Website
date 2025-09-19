@@ -1,33 +1,36 @@
-import React from 'react'
-import Image from 'next/image'
+import Image from "next/image";
 
 const Start = () => {
   return (
-    <div
-      className="flex flex-col items-center justify-center  bg-cover bg-center"
-      style={{ backgroundImage: "url('/blog_bg.webp')" }}
+    <section 
+      className="relative z-[100] h-screen flex flex-col items-center justify-center bg-gradient-to-br from-purple-100 via-white to-orange-100"
     >
-      <Image
-         src='/community2.png'
-         alt='Community'
-         width={400}
-         height={400}
-         className='mt-4'
-      />
-      <div className='m-10 bg-white border rounded-xl p-10 flex flex-col items-center '> 
-        <h1 className='text-gray-900 text-4xl font-bold'>Beyond Silence</h1>
-        <div className="bg-purple-400 w-60 h-2 rounded-full mt-4"></div>
-        <p className='mt-6'>
-          Beyond Silence is a safe and supportive space where you can openly share what you’re going 
-          through without fear of judgment. Here, your voice matters, your struggles are acknowledged,
-           and you can connect with understanding hearts ready to listen and help. Whether you need to 
-           express your thoughts, seek guidance, or simply feel heard, Beyond Silence is here to provide 
-           comfort, support, and hope."
+      {/* optional: overlay effect */}
+      <div className="absolute inset-0 bg-gradient-to-b from-purple-200/40 to-transparent z-0"></div>
+
+      {/* content */}
+      <div className="relative z-10 text-center max-w-3xl p-8">
+        <Image
+          src="/therapy-removebg-preview.png"
+          alt="Community"
+          width={400}
+          height={400}
+          className="mx-auto mix-blend-multiply"
+        />
+
+        <h1 className="mt-6 text-5xl font-bold text-purple-800">
+          Beyond Silence
+        </h1>
+        <div className="bg-purple-500 w-40 h-2 rounded-full mx-auto mt-4"></div>
+        <p className="mt-6 text-lg text-gray-700 leading-relaxed">
+          Beyond Silence is a safe and supportive space where you can openly
+          share what you’re going through without fear of judgment. Here, your
+          voice matters, your struggles are acknowledged, and you can connect
+          with understanding hearts ready to listen and help.
         </p>
       </div>
-      
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default Start
+export default Start;
