@@ -3,7 +3,7 @@ import Service from './Service'
 
 const Services = () => {
   return (
-    <div className='m-10 bg-gradient-to-br from-purple-100 via-white to-orange-100 border-2 border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden'>
+    <div className='m-10 bg-gradient-to-br from-purple-100 via-orange-100 to-purple-200 border-2 border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden'>
         <div className='p-8 flex flex-col items-center'>
           <h1 className='text-[#0fa0a3] font-bold text-4xl mt-6'>Our Services</h1>
           <div className='bg-[#22c9cc] w-60 h-2 rounded-full mt-4'></div>
