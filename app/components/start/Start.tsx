@@ -5,7 +5,7 @@ const Start = () => {
     <section 
       className="relative z-[100] h-screen flex flex-col items-center justify-center bg-gradient-to-br from-purple-100 via-white to-orange-100"
     >
-      {/* optional: overlay effect */}
+     
       <div className="absolute inset-0 bg-gradient-to-b from-purple-200/40 to-transparent z-0"></div>
 
       {/* content */}

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="w-[90%] flex flex-col items-center justify-center bg-cover bg-center">
 
-    <div className='m-10 bg-gradient-to-br from-orange-100 via-pink-100 to-purple-100 border-2 border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden'>
+    <div className='m-10 bg-gradient-to-br from-purple-100 via-white to-orange-100 border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden'>
 
   <h1 className='text-orange-500 font-bold text-4xl mt-6'> About Us</h1>
   <div className='bg-orange-400 w-60 h-2 rounded-full mt-4'></div>
