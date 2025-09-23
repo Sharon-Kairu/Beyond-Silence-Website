@@ -26,7 +26,7 @@ const Nav = ({ openNav }: Props) => {
     <div
       className={`fixed top-0 left-0 w-full h-[19vh] z-50 transition-all duration-500 
         ${scrolled 
-          ? "bg-purple-200/90 backdrop-blur-md shadow-md" 
+          ? "bg-gradient-to-br from-purple-100 via-white to-teal-100" 
           : "bg-transparent"
         } rounded-bl-3xl rounded-br-3xl flex items-center`}
     >

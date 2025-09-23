@@ -3,6 +3,7 @@ import Image from "next/image";
 const Start = () => {
   return (
     <section 
+      id="home"
       className="relative z-[100] h-screen flex flex-col items-center justify-center bg-gradient-to-br from-purple-100 via-white to-orange-100"
     >
      
