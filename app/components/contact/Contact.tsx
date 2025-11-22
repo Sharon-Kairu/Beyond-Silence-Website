@@ -56,7 +56,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="m-10 bg-gradient-to-b from-purple-200/40 to-transparent z-0 border-2 border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden"
+      className="m-4 lg:m-8 bg-gradient-to-b from-purple-200/40 to-transparent z-0 border-2 border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden"
     >
       {/* Top-right bouncing dot */}
       <div className="absolute top-4 right-4 w-10 h-10 bg-purple-300 rounded-full opacity-80 animate-bounce" />
@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
 
         {/* CONTACT FORM / TEXT BOX */}
-        <div className="p-8 bg-white rounded-3xl m-6 shadow-xl text-center relative">
+        <div className="p-4 bg-white rounded-3xl shadow-xl text-center relative">
           <h2 className="text-3xl font-bold text-[#0fa0a3] mb-6">
             You can reach us through
           </h2>

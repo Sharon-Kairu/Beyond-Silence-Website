@@ -4,7 +4,7 @@ import { FaMoneyBillWave, FaRegCreditCard } from "react-icons/fa";
 
 const Donations = () => {
   return (
-    <div id='donate' className='m-10 bg-gradient-to-b from-purple-200/40 to-transparent z-0  border-2 border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden'>
+    <div id='donate' className='m-4 lg:m-8bg-gradient-to-b from-purple-200/40 to-transparent z-0  border-2 border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden'>
         <h1 className='text-[#0fa0a3] font-bold text-4xl mt-6 '> Want to make a donation to us?</h1>
         <div className='bg-[#22c9cc] w-60 h-2 rounded-full mt-4'></div>
 
@@ -17,7 +17,7 @@ const Donations = () => {
                 className="object-contain rounded-2xl mix-blend-multiply ml-12"
             />
 
-          <div className="p-8 bg-gradient-to-br from-green-50 via-white to-pink-50 rounded-2xl m-4 shadow-xl border border-green-100">
+          <div className="p-8 rounded-2xl m-4 ">
             <p className="text-3xl font-bold text-[#0fa0a3] text-center">
               You can support us with a donation via Mpesa
             </p>

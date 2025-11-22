@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Beyond Silence",
     description:
       "A community-centered platform that fosters connection, dialogue, and a safe space for meaningful conversations.",
-    url: "https://beyondsilence.co.ke", // update if needed
+    url: "https://beyond-silence-website.vercel.app/", 
     siteName: "Beyond Silence",
     images: [
       {
