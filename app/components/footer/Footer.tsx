@@ -50,7 +50,7 @@ const Footer = () => {
             <FaEnvelope className="text-purple-600" /> beyondsilence@gmail.com
           </p>
           <p className="flex items-center gap-2 text-gray-700 mt-2">
-            <FaPhone className="text-green-600" /> 0733 445566
+            <FaPhone className="text-green-600" /> 0723046333
           </p>
 
           

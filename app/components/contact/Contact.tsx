@@ -5,8 +5,8 @@ import { MdEmail, MdCall } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 
 const CONTACT_EMAIL = "sharonkairu62@gmail.com";
-const PHONE_NUMBER = "0733445566"; // local format
-const E164_PHONE = "254733445566"; 
+const PHONE_NUMBER = "0723046333"; // local format
+const E164_PHONE = "254723046333"; 
 
 const Contact = () => {
   const [name, setName] = useState("");
