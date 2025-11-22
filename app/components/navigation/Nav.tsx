@@ -33,7 +33,7 @@ const Nav = ({ openNav }: Props) => {
       <div className="p-5 flex items-center space-x-3.5">
         <div className="items-center justify-center">
           <Image
-            src="/main_logo.jpeg"
+            src="/logo.png"
             alt="Beyond Silence Icon"
             width={70}
             height={70}

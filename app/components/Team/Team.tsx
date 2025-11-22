@@ -11,13 +11,18 @@ const Team = () => {
           <h1 className='text-[#0fa0a3] font-bold text-4xl mt-6'> Meet the team</h1>
           <div className='bg-[#22c9cc] w-60 h-2 rounded-full mt-4'></div>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  space-x-5 space-y-5 items-center p-8 relative overflow-hidden'>
+      <div className='grid grid-cols-1 lg:grid-cols-2  space-x-5 space-y-5 items-center p-8 relative overflow-hidden'>
          
 
           <TeamMember
-              name="Member 1"
-              role="Role 1"
-              imageUrl="/member_1.webp"
+              name="Sawia Hassan"
+              role="Founder & Chairperson"
+              imageUrl="/Sawia.jpeg"
+          />
+          <TeamMember
+              name="Asiya Mohamed"
+              role="Founder & Programs Director and coordinator"
+              imageUrl="/Asiya.jpeg"
           />
           <TeamMember
               name="Member 1"
@@ -29,16 +34,7 @@ const Team = () => {
               role="Role 1"
               imageUrl="/member_1.webp"
           />
-          <TeamMember
-              name="Member 1"
-              role="Role 1"
-              imageUrl="/member_1.webp"
-          />
-          <TeamMember
-              name="Member 1"
-              role="Role 1"
-              imageUrl="/member_1.webp"
-          />
+          
       </div>
     </div>
   )

@@ -13,7 +13,7 @@ const Footer = () => {
         {/* Logo & Tagline */}
         <div className="flex flex-col items-center md:items-start">
           <Image 
-            src="/main_logo.jpeg" 
+            src="/logo.png" 
             alt="Beyond Silence Logo" 
             width={70} 
             height={70} 
