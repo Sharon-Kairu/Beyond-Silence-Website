@@ -28,10 +28,10 @@ const Nav = ({ openNav }: Props) => {
         ${scrolled 
           ? "bg-gradient-to-br from-purple-100 via-white to-teal-100" 
           : "bg-transparent"
-        } rounded-bl-3xl rounded-br-3xl flex items-center`}
+        } rounded-bl-3xl rounded-br-3xl flex items-center justify-between`}
     >
-      <div className="p-5 flex items-center space-x-3.5">
-        <div className="items-center justify-center">
+      <div className="p-5 flex items-center gap-4">
+        <div className="items-center justify-center ">
           <Image
             src="/logo.png"
             alt="Beyond Silence Icon"
@@ -45,7 +45,7 @@ const Nav = ({ openNav }: Props) => {
         </h1>
       </div>
 
-      <div className="hidden lg:flex items-center space-x-10 ml-60">
+      <div className="hidden lg:flex items-center space-x-10 mr-5 lg:mr-10">
         {NavLinks.map((link) => (
           <Link
             key={link.id}
