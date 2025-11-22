@@ -40,7 +40,7 @@ const Nav = ({ openNav }: Props) => {
           />
         </div>
 
-        <h1 className="text-4xl font-bold text-purple-800">
+        <h1 className="text-xl md:text-2xl lg:text-4xl font-bold text-purple-800">
           Speak . Heal . Rise
         </h1>
       </div>
