@@ -53,18 +53,7 @@ const Footer = () => {
             <FaPhone className="text-green-600" /> 0733 445566
           </p>
 
-          {/* Social Icons */}
-          <div className="flex space-x-5 mt-5">
-            <a href="#" className="text-purple-600 hover:text-purple-800">
-              <FaFacebook size={22} />
-            </a>
-            <a href="#" className="text-pink-500 hover:text-pink-700">
-              <FaInstagram size={22} />
-            </a>
-            <a href="#" className="text-blue-400 hover:text-blue-600">
-              <FaTwitter size={22} />
-            </a>
-          </div>
+          
         </div>
         <p className="text-sm text-gray-600 mt-4">
         Images designed by{" "}

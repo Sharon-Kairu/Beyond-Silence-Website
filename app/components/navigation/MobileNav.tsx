@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { NavLinks } from '@/constants/constants'
-import Link from "next/link";
+import { Link } from 'react-scroll'
 import { CgClose } from "react-icons/cg";
 
 type Props = {
@@ -24,12 +24,22 @@ const MobileNav = ({ showNav, closeNav }: Props) => {
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-full w-[80%] sm:w-[60%] bg-gray-900 z-[10050] transform ${navOpen} transition-transform duration-500`}
+        className={`fixed top-0 right-0 h-full w-[80%] sm:w-[60%] bg-purple-400 z-[10050] transform ${navOpen} transition-transform duration-500`}
       >
         <div className="flex flex-col justify-center h-full space-y-6 px-8">
           {NavLinks.map((link) => (
-            <Link key={link.id} href={link.url}>
-              <p className="text-white w-fit text-xl border-b-[1.5px] pb-1 border-white sm:text-[30px]">
+            <Link 
+              key={link.id}
+              to={link.url}
+              smooth={true}
+              duration={800}
+              offset={-70}
+              spy={true}
+              activeClass="active-link"
+              onClick={closeNav} 
+              className="cursor-pointer transition duration-300">
+
+              <p className="text-white" >
                 {link.label}
               </p>
             </Link>

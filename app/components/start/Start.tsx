@@ -16,7 +16,7 @@ const Start = () => {
           alt="Community"
           width={400}
           height={400}
-          className="mx-auto mix-blend-multiply"
+          className="mx-auto mix-blend-multiply mt-10"
         />
 
         <h1 className="mt-6 text-5xl font-bold text-purple-800">

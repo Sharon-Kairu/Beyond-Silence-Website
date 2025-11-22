@@ -56,7 +56,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="m-4 lg:m-8 bg-gradient-to-b from-purple-200/40 to-transparent z-0 border-2 border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden"
+      className="m-4 lg:m-8 bg-gradient-to-b from-purple-200/40 to-transparent z-0 border-2 border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-4 relative overflow-hidden"
     >
       {/* Top-right bouncing dot */}
       <div className="absolute top-4 right-4 w-10 h-10 bg-purple-300 rounded-full opacity-80 animate-bounce" />

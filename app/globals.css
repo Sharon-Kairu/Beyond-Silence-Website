@@ -1,2 +1,5 @@
 @import "tailwindcss";
 
+.active-link {
+  @apply underline decoration-2 underline-offset-4 text-purple-900;
+}

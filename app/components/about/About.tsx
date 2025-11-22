@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-      <div className="m-4 lg:m-8 bg-gradient-to-b from-purple-200/40 to-transparent z-0  border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden">
+      <div id="about" className="m-4 lg:m-8 bg-gradient-to-b from-purple-200/40 to-transparent z-0  border-orange-200 rounded-3xl shadow-2xl flex flex-col items-center p-8 relative overflow-hidden">
         
         <h1 className="text-orange-500 font-bold text-4xl mt-6">About Us</h1>
         <div className="bg-orange-400 w-60 h-2 rounded-full mt-4"></div>

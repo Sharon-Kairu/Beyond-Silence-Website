@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import { NavLinks } from "@/constants/constants";
-import Link from "next/link";
+import {Link} from "react-scroll";
 
 type Props = { openNav: () => void };
 
@@ -24,7 +24,7 @@ const Nav = ({ openNav }: Props) => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full h-[19vh] z-50 transition-all duration-500 
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 
         ${scrolled 
           ? "bg-gradient-to-br from-purple-100 via-white to-teal-100" 
           : "bg-transparent"
@@ -49,10 +49,17 @@ const Nav = ({ openNav }: Props) => {
         {NavLinks.map((link) => (
           <Link
             key={link.id}
-            href={link.url}
-            className="text-lg font-medium text-purple-800 hover:text-purple-600 transition-all duration-200"
-          >
-            {link.label}
+              to={link.url}
+              smooth={true}
+              duration={800}
+              offset={-70}
+              spy={true}
+              activeClass="active-link"
+              className="cursor-pointer hover:text-green-700 transition duration-300">
+          
+            <p className="text-purple-800 hover:text-orange-600">
+                {link.label}
+              </p>
           </Link>
         ))}
       </div>
