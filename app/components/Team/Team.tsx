@@ -16,7 +16,7 @@ const Team = () => {
       </div>
 
       {/* Team Members Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-8">
         <TeamMember
           name="Sawia Hassan"
           role="Founder & Chairperson"
@@ -28,15 +28,11 @@ const Team = () => {
           imageUrl="/Asiya.jpeg"
         />
         <TeamMember
-          name="Member 1"
-          role="Role 1"
-          imageUrl="/member_1.webp"
+          name="Michelle Wanjiru Mwangi"
+          role="Finance manager , communications manager"
+          imageUrl="/Mitchell.jpeg"
         />
-        <TeamMember
-          name="Member 2"
-          role="Role 2"
-          imageUrl="/member_1.webp"
-        />
+        
       </div>
     </div>
   );
